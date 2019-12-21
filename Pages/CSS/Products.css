@@ -1,0 +1,23 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+#display {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.outerProducts {
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgb(201, 255, 203);
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

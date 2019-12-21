@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b2e322cc-6945-4b9f-92d3-2c7522747a15" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51552/Reader.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="87e70f84-092a-484c-aa46-ad7b9db63a47" SourceId="1" SourceUrl="http://localhost:51552/Reader.svc?wsdl" />
+    <MetadataFile FileName="Reader.xsd" MetadataType="Schema" ID="76f7426e-b5fa-49d4-bbcf-c1af35edb2e3" SourceId="1" SourceUrl="http://localhost:51552/Reader.svc?xsd=xsd0" />
+    <MetadataFile FileName="Reader.disco" MetadataType="Disco" ID="e43ab9b3-38e5-45ec-bcbe-a11be3e7513b" SourceId="1" SourceUrl="http://localhost:51552/Reader.svc?disco" />
+    <MetadataFile FileName="Reader1.xsd" MetadataType="Schema" ID="45f4aad1-7b72-47c5-8edd-bb0b117b91e0" SourceId="1" SourceUrl="http://localhost:51552/Reader.svc?xsd=xsd1" />
+    <MetadataFile FileName="Reader2.xsd" MetadataType="Schema" ID="b99719c1-01d8-428d-b91d-d7da6d9e4423" SourceId="1" SourceUrl="http://localhost:51552/Reader.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
